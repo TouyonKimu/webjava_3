@@ -14,8 +14,6 @@ public class RPGController {
 	}
 
 
-
-
 	@RequestMapping(value = "/CommandView" )
 	public ModelAndView index1(ModelAndView mav) {
 		mav.setViewName("/CommandView");
